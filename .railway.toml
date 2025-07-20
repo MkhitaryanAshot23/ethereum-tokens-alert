@@ -1,0 +1,12 @@
+[railway]
+projectId = "ethereum-tokens-alert"
+
+[environment]
+TELEGRAM_BOT_TOKEN = "TELEGRAM_BOT_TOKEN"
+TELEGRAM_CHAT_ID = "TELEGRAM_CHAT_ID"
+
+[build]
+command = "pip install -r requirements.txt"
+
+[start]
+command = "python token_checker.py"
